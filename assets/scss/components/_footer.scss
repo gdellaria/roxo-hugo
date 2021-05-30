@@ -1,5 +1,5 @@
 .site-footer{
-  background: $secondary-color;
+  background: $footer-gray;
   padding: 100px 0;
   &-logo{
     margin-bottom: 50px;
@@ -15,17 +15,17 @@
       text-align: center;
     }
     &-title{
-      color: $white;
+      color: $secondary-color;
       margin-bottom: 30px;
       @include desktop{
         margin-bottom: 20px;
       }
     }
     &-description{
-      color: $white;
+      color: $secondary-color;
       line-height: 30px;
       a{
-        color: $white;
+        color: $secondary-color;
       }
     }
     &-links{
@@ -34,7 +34,7 @@
       li{
         list-style: none;
         a{
-          color: $white;
+          color: $secondary-color;
           transition: all 0.3s $site-ease;
           display: block;
         }
@@ -54,7 +54,7 @@
         margin-bottom: 20px;
       }
       p{
-        color: $white;
+        color: $secondary-color;
       }
       &:hover{
         text-decoration: none;
